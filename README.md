@@ -1,0 +1,64 @@
+# <img width="1140" height="122" alt="titulo pruebas" src="https://github.com/user-attachments/assets/830e2dd2-c231-46e7-a478-3272225c1e61" />
+
+## <img width="150" height="71" alt="Captura de pantalla 2025-08-14 101700" src="https://github.com/user-attachments/assets/833ff3e4-20eb-4de3-bb98-f20bc5fd71c8" />
+
+# 📋 Índice
+
+- [🎮 Construcción del diagrama de flujo](#-construcción-del-diagrama-de-flujo)
+- [💡 Recomendaciones](#-recomendaciones)
+- [📝 Conclusiones](#-conclusiones)
+- [👩‍💻 Desarrolladores](#-desarrolladores)
+
+---
+
+## 🎮 Construcción del diagrama de flujo
+
+Para iniciar el desarrollo del software, el primer paso fue elaborar un diagrama de flujo de forma individual, con el objetivo de representar la lógica y el funcionamiento básico del sistema. Posteriormente, se realizó una socialización de los diagramas entre los integrantes del grupo de trabajo, lo que permitió comparar ideas, identificar mejoras y unificar criterios. Con base en estas observaciones y ajustes, se construyó el diagrama de flujo final, el cual servirá como guía para la implementación del código.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/878d08eb-9994-45e3-a581-b40398146719" alt="pruebasII drawio" width="400"/>
+  <img src="https://github.com/user-attachments/assets/e396193c-53b4-4515-b58d-d0415b4eef01" alt="tarea Dafne" width="400"/>
+</div>
+
+[🔼 Volver al índice](#-índice)
+
+---
+
+## 💡 Recomendaciones
+
+<!-- Aquí puedes agregar el contenido de tus recomendaciones -->
+
+[🔼 Volver al índice](#-índice)
+
+---
+
+## 📝 Conclusiones
+
+<!-- Aquí puedes agregar el contenido de tus conclusiones -->
+
+[🔼 Volver al índice](#-índice)
+
+---
+
+## 👩‍💻 Desarrolladores
+
+Este proyecto fue desarrollado por Dafne Julieth Cortés, Johana Jazmín Saavedra, estudiantes de cuarto semestre en Técnica profesional en programación de aplicaciones de software de la Fundación Universitaria Compensar. Con una participación activa en la creación del juego, diseño de pruebas automatizadas, documentación y presentación del proyecto final.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" style="padding-right: 60px;">
+        <img src="https://github.com/user-attachments/assets/9595bb09-c5cc-4ce8-8a1a-e6bfc3ffd378" width="120" style="border: none;"><br/>
+        <strong>Dafne Julieth Cortés</strong>
+      </td>
+      <td align="center" style="padding-left: 60px;">
+        <img src="https://github.com/user-attachments/assets/96a0990c-a533-42c2-9fa2-7224c4eca021" width="120" style="border: none;"><br/>
+        <strong>Johana Jazmín Saavedra</strong>
+      </td>
+    </tr>
+  </table>
+</div>
+
+[🔼 Volver al índice](#-índice)
+
+---
