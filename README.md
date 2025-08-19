@@ -2,10 +2,11 @@
 
 ## <img width="150" height="71" alt="Captura de pantalla 2025-08-14 101700" src="https://github.com/user-attachments/assets/833ff3e4-20eb-4de3-bb98-f20bc5fd71c8" id="índice" />
 
-- [🎮 Construcción del diagrama de flujo](#construcción-del-diagrama-de-flujo)
-- [💡 Recomendaciones](#recomendaciones)
-- [📝 Conclusiones](#conclusiones)
-- [👩‍💻 Desarrolladores](#desarrolladores)
+- [Construcción del diagrama de flujo](#construcción-del-diagrama-de-flujo)
+- [Evolución del código](#evolución-del-código)
+- [Recomendaciones](#recomendaciones)
+- [Conclusiones](#conclusiones)
+- [Desarrolladores](#desarrolladores)
 
 ---
 
@@ -38,6 +39,20 @@ Posteriormente, se realizó una socialización de los diagramas entre los integr
 
 <div align="center">
   <img width="620" height="780" alt="pruebasII definitivo" src="https://github.com/user-attachments/assets/02bf3dde-d41a-4665-8be3-e48f1aba8615" />
+</div>
+
+[🔼 Volver al índice](#índice)
+
+---
+
+## <img width="444" height="84" alt="Captura de pantalla 2025-08-19 113855" src="https://github.com/user-attachments/assets/6ec1cf9e-9e77-42f1-82af-f131a158ead3" id="evolución-del-código" />
+
+En este apartado mostraremos la evolución que tendrá nuestro juego en cuanto a su creación y funcionalidad 
+
+### Primer bosquejo del juego
+
+<div align="center">
+<img width="402" height="314" alt="Captura de pantalla 2025-08-19 110935" src="https://github.com/user-attachments/assets/73756c90-3104-46f6-bb43-d3f06a6bc53a" />
 </div>
 
 [🔼 Volver al índice](#índice)
