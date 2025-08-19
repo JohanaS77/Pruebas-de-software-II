@@ -47,7 +47,7 @@ Posteriormente, se realizó una socialización de los diagramas entre los integr
 
 ## <img width="444" height="84" alt="Captura de pantalla 2025-08-19 113855" src="https://github.com/user-attachments/assets/6ec1cf9e-9e77-42f1-82af-f131a158ead3" id="evolución-del-código" />
 
-En este apartado mostraremos la evolución que tendrá nuestro juego en cuanto a su creación y funcionalidad 
+Una vez elaborado el diagrama de flujo se procede a elaborar el código html para dar forma al proyecto
 
 ### Primer bosquejo del juego
 
