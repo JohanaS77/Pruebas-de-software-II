@@ -61,7 +61,7 @@ Una vez elaborado el diagrama de flujo se procede a elaborar el código html par
 
 ## <img width="379" height="58" alt="Captura de pantalla 2025-08-14 110412" src="https://github.com/user-attachments/assets/85ef0005-44d4-48f4-ae64-e96049444a45" id="recomendaciones" />
 
-<!-- Aquí puedes agregar el contenido de tus recomendaciones -->
+Se recomienda seguir reforzando el análisis y diseño de bases de datos aplicando metodologías de normalización más avanzadas y realizando pruebas con diferentes modelos (relacionales y no relacionales). También es importante complementar los diagramas con descripciones más detalladas de los procesos y flujos de datos, lo que permitirá un entendimiento más profundo del sistema. Finalmente, se sugiere continuar practicando la implementación en gestores de bases de datos reales para validar el diseño y detectar posibles mejoras
 
 [🔼 Volver al índice](#índice)
 
@@ -69,7 +69,7 @@ Una vez elaborado el diagrama de flujo se procede a elaborar el código html par
 
 ## <img width="314" height="58" alt="Captura de pantalla 2025-08-14 110848" src="https://github.com/user-attachments/assets/07497e16-04a1-41f7-af00-783f1ac9ec1a" id="conclusiones" />
 
-<!-- Aquí puedes agregar el contenido de tus conclusiones -->
+El desarrollo realizado hasta el momento demuestra un avance sólido en la comprensión de los fundamentos de las bases de datos y de las pruebas de software. A través de diagramas, comparativos y estudios de caso, se evidencia la importancia de un buen diseño y análisis para garantizar la calidad y eficiencia de los sistemas. El trabajo refleja cómo la organización de entidades, atributos y relaciones contribuye directamente a la construcción de soluciones tecnológicas confiables y escalables.
 
 [🔼 Volver al índice](#índice)
 
