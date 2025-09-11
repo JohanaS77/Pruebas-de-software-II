@@ -1,6 +1,6 @@
-# <img width="1140" height="122" alt="titulo pruebas" src="https://github.com/user-attachments/assets/830e2dd2-c231-46e7-a478-3272225c1e61" />
+# <div align="center"><img width="1140" height="122" alt="titulo pruebas" src="readme-img/titulo.png" /></div>
 
-## <img width="150" height="71" alt="Captura de pantalla 2025-08-14 101700" src="https://github.com/user-attachments/assets/833ff3e4-20eb-4de3-bb98-f20bc5fd71c8" id="índice" />
+## <img width="150" height="71" alt="Indice" src="readme-img/indice1.png" />
 
 - [Construcción del diagrama de flujo](#construcción-del-diagrama-de-flujo)
 - [Evolución del código](#evolución-del-código)
@@ -10,7 +10,8 @@
 
 ---
 
-## <img width="1041" height="65" alt="Captura de pantalla 2025-08-14 103126" src="https://github.com/user-attachments/assets/c2d20d87-bb61-4963-97d1-2f078be7302a" id="construcción-del-diagrama-de-flujo" />
+<a name="construcción-del-diagrama-de-flujo"></a>
+## <img width="1041" height="65" alt="Contruccion" src="readme-img/construccion.png" />
 
 Para iniciar el desarrollo del software, el primer paso fue elaborar un diagrama de flujo de forma individual, con el objetivo de representar la lógica y el funcionamiento básico del sistema. 
 
@@ -18,48 +19,50 @@ Para iniciar el desarrollo del software, el primer paso fue elaborar un diagrama
   <table>
     <tr>
       <td align="center" style="padding: 0 20px;">
-        <img src="https://github.com/user-attachments/assets/878d08eb-9994-45e3-a581-b40398146719" alt="pruebasII drawio" width="400"/><br/>
-        <strong>Elaborado por Johana</strong>
+        <img src="readme-img/diagrama-johana.png" alt="Tarea Johana" width="400"/><br/>
+        <strong>Elaborado por Johana Saavedra</strong>
       </td>
       <td align="center" style="padding: 0 20px;">
-        <img src="https://github.com/user-attachments/assets/e396193c-53b4-4515-b58d-d0415b4eef01" alt="tarea Dafne" width="400"/><br/>
-        <strong>Elaborado por Dafne</strong>
+        <img src="readme-img/diagrama-dafne.png"" alt="Tarea Dafne" width="400"/><br/>
+        <strong>Elaborado por Dafne Cortés</strong>
       </td>
     </tr>
   </table>
 </div>
 
 <div align="center" style="margin-top: 30px;">
-  <img src="https://github.com/user-attachments/assets/e2c21afc-74a3-42f9-850d-b62bbe27e528" alt="tarea Michael" width="400"/><br/>
-  <strong>Elaborado por Michael</strong>
+  <img src="readme-img/diagrama-michael.jpg"" alt="Tarea Michael" width="400"/><br/>
+  <strong>Elaborado por Michael Gómez</strong>
 </div>
 
 ### Diagrama Final
 Posteriormente, se realizó una socialización de los diagramas entre los integrantes del grupo de trabajo, lo que permitió comparar ideas, identificar mejoras y unificar criterios. Con base en estas observaciones y ajustes, se construyó el diagrama de flujo final, el cual servirá como guía para la implementación del código.
 
 <div align="center">
-  <img width="620" height="780" alt="pruebasII definitivo" src="https://github.com/user-attachments/assets/02bf3dde-d41a-4665-8be3-e48f1aba8615" />
+  <img width="620" height="780" alt="Diagrama final" src="readme-img/diagrana-definitivo.png" />
 </div>
 
 [🔼 Volver al índice](#índice)
 
 ---
 
-## <img width="444" height="84" alt="Captura de pantalla 2025-08-19 113855" src="https://github.com/user-attachments/assets/6ec1cf9e-9e77-42f1-82af-f131a158ead3" id="evolución-del-código" />
+<a name="evolución-del-código"></a>
+## <img width="444" height="84" alt="Evolucion" src="readme-img/evolucion.png"/>
 
 Una vez elaborado el diagrama de flujo se procede a elaborar el código html para dar forma al proyecto
 
 ### Primer bosquejo del juego
 
 <div align="center">
-<img width="402" height="314" alt="Captura de pantalla 2025-08-19 110935" src="https://github.com/user-attachments/assets/73756c90-3104-46f6-bb43-d3f06a6bc53a" />
+<img width="402" height="314" alt="Juego" src="readme-img/juego.png" />
 </div>
 
 [🔼 Volver al índice](#índice)
 
 ---
 
-## <img width="379" height="58" alt="Captura de pantalla 2025-08-14 110412" src="https://github.com/user-attachments/assets/85ef0005-44d4-48f4-ae64-e96049444a45" id="recomendaciones" />
+<a name="recomendaciones"></a>
+## <img width="379" height="58" alt="Recomendaciones" src="readme-img/recomendaciones1.png"/>
 
 Se recomienda seguir reforzando el análisis y diseño de bases de datos aplicando metodologías de normalización más avanzadas y realizando pruebas con diferentes modelos (relacionales y no relacionales). También es importante complementar los diagramas con descripciones más detalladas de los procesos y flujos de datos, lo que permitirá un entendimiento más profundo del sistema. Finalmente, se sugiere continuar practicando la implementación en gestores de bases de datos reales para validar el diseño y detectar posibles mejoras
 
@@ -67,7 +70,8 @@ Se recomienda seguir reforzando el análisis y diseño de bases de datos aplican
 
 ---
 
-## <img width="314" height="58" alt="Captura de pantalla 2025-08-14 110848" src="https://github.com/user-attachments/assets/07497e16-04a1-41f7-af00-783f1ac9ec1a" id="conclusiones" />
+<a name="conclusiones"></a>
+## <img width="314" height="58" alt="Conclusiones" src="readme-img/conclusiones1.png"/>
 
 El desarrollo realizado hasta el momento demuestra un avance sólido en la comprensión de los fundamentos de las bases de datos y de las pruebas de software. A través de diagramas, comparativos y estudios de caso, se evidencia la importancia de un buen diseño y análisis para garantizar la calidad y eficiencia de los sistemas. El trabajo refleja cómo la organización de entidades, atributos y relaciones contribuye directamente a la construcción de soluciones tecnológicas confiables y escalables.
 
@@ -75,7 +79,8 @@ El desarrollo realizado hasta el momento demuestra un avance sólido en la compr
 
 ---
 
-## <img width="377" height="62" alt="Captura de pantalla 2025-08-14 111853" src="https://github.com/user-attachments/assets/62fc1e86-e7a1-4674-b917-64140e9882a9" id="desarrolladores" />
+<a name="desarrolladores"></a>
+## <img width="377" height="62" alt="Captura de pantalla 2025-08-14 111853" src="readme-img/desarrolladores.png"/>
 
 Este proyecto fue desarrollado por Dafne Julieth Cortés, Johana Jazmín Saavedra y Michael Duvan Gómez Peña, estudiantes de cuarto semestre en Técnica profesional en programación de aplicaciones de software de la Fundación Universitaria Compensar; con una participación activa en la creación del juego y presentación del proyecto final.
 
@@ -83,15 +88,15 @@ Este proyecto fue desarrollado por Dafne Julieth Cortés, Johana Jazmín Saavedr
   <table>
     <tr>
       <td align="center" style="padding: 0 30px;">
-        <img src="https://github.com/user-attachments/assets/9595bb09-c5cc-4ce8-8a1a-e6bfc3ffd378" width="120" style="border: none;"><br/>
+        <img src="readme-img/Dafne.jpg" width="120" style="border: none;"><br/>
         <strong>Dafne Julieth Cortés</strong>
       </td>
       <td align="center" style="padding: 0 30px;">
-        <img src="https://github.com/user-attachments/assets/96a0990c-a533-42c2-9fa2-7224c4eca021" width="120" style="border: none;"><br/>
+        <img src="readme-img/johana.png" width="80" style="border: none;"><br/>
         <strong>Johana Jazmín Saavedra</strong>
       </td>
       <td align="center" style="padding: 0 30px;">
-        <img src="https://github.com/user-attachments/assets/e215c13a-3a85-4422-a94d-9a06536f15b3" width="120" style="border: none;"><br/>
+        <img src="readme-img/Michael.png" width="120" style="border: none;"><br/>
         <strong>Michael Duvan Gómez Peña</strong>
       </td>
     </tr>
@@ -103,19 +108,19 @@ Este proyecto fue desarrollado por Dafne Julieth Cortés, Johana Jazmín Saavedr
 ---
 
 
-# <img width="3449" height="618" alt="Captura de pantalla 2025-08-24 191516" src="https://github.com/user-attachments/assets/544b51ab-183e-4f5a-9a21-3c4a6bea9fb8" />
+# <img width="3449" height="618" alt="Titulo" src="readme-img/tarea-4-ejercicios/titulo2.png" />
 
 Repositorio con 4 ejercicios en Java (IntelliJ).  
 Cada ejercicio es un proyecto independiente dentro de la carpeta raíz.
 
-## <a name="índice-general"></a><img width="135" height="103" alt="Captura de pantalla 2025-08-24 191218" src="https://github.com/user-attachments/assets/b8a4dc33-b253-4707-b292-6f96db81f9a8" />
+## <a name="índice-general"></a><img width="135" height="103" alt="Indice" src="readme-img/tarea-4-ejercicios/indice2.png" />
 
 - [📁 Estructura](#estructura)
 - [🔧 Requisitos](#requisitos)
 - [🚀 Como ejecutar](#instrucciones-de-uso)
 - [👤 Desarrolladora](#desarrollado-por)
 
-## <a name="estructura"></a>[<img width="242" height="99" alt="Captura de pantalla 2025-08-24 191018" src="https://github.com/user-attachments/assets/05385466-5607-4655-aa04-30256c92e189" />](#índice-general)
+## <a name="estructura"></a>[<img width="242" height="99" alt="Estructura" src="readme-img/tarea-4-ejercicios/estructura.png" />](#índice-general)
 
 - [📁 Ejercicio 1: Orden Ascendente](#ejercicio1-orden-ascendente)
 - [📁 Ejercicio 2: Inversa de Cadenas](#ejercicio2-inversa-de-cadenas) 
@@ -124,12 +129,12 @@ Cada ejercicio es un proyecto independiente dentro de la carpeta raíz.
 
 ---
 
-### <a name="ejercicio1-orden-ascendente"></a>[<img width="304" height="52" alt="Captura de pantalla 2025-08-24 190850" src="https://github.com/user-attachments/assets/27a2aae8-5729-4c06-9e00-f9f4d5441a64" />](#ejercicio1-orden-ascendente)
+### <a name="ejercicio1-orden-ascendente"></a>[<img width="304" height="52" alt="Ejercicio1" src="readme-img/tarea-4-ejercicios/ejercicio1.png" />](#ejercicio1-orden-ascendente)
 
 Este programa solicita tres números al usuario y los ordena de menor a mayor utilizando condicionales y comparaciones básicas en Java.
 
 <div align="center">
-  <img width="510" height="455" alt="Captura de pantalla 2025-08-24 170920" src="https://github.com/user-attachments/assets/f3b61034-5b87-46d5-986f-acd7f740ec5f"/> 
+  <img width="510" height="455" alt="ascendente" src="readme-img/tarea-4-ejercicios/ascendente.png"/> 
 </div>
 
 **📂 Ubicación:** `Ejercicio1OrdenAscendente/`
@@ -138,12 +143,12 @@ Este programa solicita tres números al usuario y los ordena de menor a mayor ut
 
 ---
 
-### <a name="ejercicio2-inversa-de-cadenas"></a>[<img width="327" height="64" alt="Captura de pantalla 2025-08-24 190700" src="https://github.com/user-attachments/assets/1be902cf-08a8-466d-99e3-56692f940183" />](#ejercicio2-inversa-de-cadenas)
+### <a name="ejercicio2-inversa-de-cadenas"></a>[<img width="327" height="64" alt="Ejercicio2" src="readme-img/tarea-4-ejercicios/ejercicio2.png" />](#ejercicio2-inversa-de-cadenas)
 
 Este programa recibe una palabra o frase y muestra su versión invertida, utilizando un bucle para recorrer la cadena de atrás hacia adelante.
 
 <div align="center">
-  <img width="513" height="459" alt="Captura de pantalla 2025-08-24 171708" src="https://github.com/user-attachments/assets/b108ec65-61ad-4f48-8108-43ba7600bb0b" />
+  <img width="513" height="459" alt="Cadenas" src="readme-img/tarea-4-ejercicios/cadenas.png" />
 </div>
 
 **📂 Ubicación:** `Ejercicio2InversaCadenas/`
@@ -152,7 +157,7 @@ Este programa recibe una palabra o frase y muestra su versión invertida, utiliz
 
 ---
 
-### <a name="ejercicio3-validar-contraseña"></a>[<img width="494" height="91" alt="Captura de pantalla 2025-08-24 190521" src="https://github.com/user-attachments/assets/085d824f-aee1-4157-b329-f1b22c3d8399" />](#ejercicio3-validar-contraseña)
+### <a name="ejercicio3-validar-contraseña"></a>[<img width="494" height="91" alt="Ejercicio3" src="readme-img/tarea-4-ejercicios/ejercicio3.png" />](#ejercicio3-validar-contraseña)
 
 Este método revisa si una contraseña cumple con los criterios de seguridad:
 
@@ -163,7 +168,7 @@ Este método revisa si una contraseña cumple con los criterios de seguridad:
 - Un carácter especial del listado (!@#$%^&*)
 
 <div align="center">
-  <img width="513" height="458" alt="Captura de pantalla 2025-08-24 171541" src="https://github.com/user-attachments/assets/75024eee-51b7-400e-95a5-ffbb2ddc22c2" />
+  <img width="513" height="458" alt="Contrasena" src="readme-img/tarea-4-ejercicios/contrasena.png" />
 </div>
 
 **📂 Ubicación:** `Ejercicio3ValidarContrasena/`
@@ -172,12 +177,12 @@ Este método revisa si una contraseña cumple con los criterios de seguridad:
 
 ---
 
-### <a name="ejercicio4-contar-vocales-y-consonantes"></a>[<img width="444" height="85" alt="Captura de pantalla 2025-08-24 190304" src="https://github.com/user-attachments/assets/173eea71-4835-4985-a484-c672e59f1096" />](#ejercicio4-contar-vocales-y-consonantes)
+### <a name="ejercicio4-contar-vocales-y-consonantes"></a>[<img width="444" height="85" alt="Ejercicio4" src="readme-img/tarea-4-ejercicios/ejercicio4.png" />](#ejercicio4-contar-vocales-y-consonantes)
 
 Este programa recibe una cadena y cuenta cuántas vocales y cuántas consonantes tiene, mostrando ambos resultados.
 
 <div align="center">
-  <img width="513" height="461" alt="Captura de pantalla 2025-08-24 171859" src="https://github.com/user-attachments/assets/1d7c0493-869c-44f5-b436-2b3251d96401" />
+  <img width="513" height="461" alt="Vocales" src="readme-img/tarea-4-ejercicios/vocales.png" />
 </div>
 
 **📂 Ubicación:** `Ejercicio4ContarVocalesConsonantes/`
@@ -186,7 +191,7 @@ Este programa recibe una cadena y cuenta cuántas vocales y cuántas consonantes
 
 ---
 
-## <a name="requisitos"></a>[<img width="216" height="129" alt="Captura de pantalla 2025-08-24 190049" src="https://github.com/user-attachments/assets/78c79629-6b8f-4619-8d41-156e9abb334c" />](#requisitos)
+## <a name="requisitos"></a>[<img width="216" height="129" alt="Requisitos" src="readme-img/tarea-4-ejercicios/requisitos.png" />](#requisitos)
 
 - Java JDK 17
 - IntelliJ IDEA (recomendado)
@@ -195,7 +200,7 @@ Este programa recibe una cadena y cuenta cuántas vocales y cuántas consonantes
 
 ---
 
-## <a name="instrucciones-de-uso"></a>[<img width="265" height="136" alt="Captura de pantalla 2025-08-24 185921" src="https://github.com/user-attachments/assets/87c15a1e-93e5-4e3f-a516-12d9ca40938d" />](#instrucciones-de-uso)
+## <a name="instrucciones-de-uso"></a>[<img width="265" height="136" alt="Ejecucion" src="readme-img/tarea-4-ejercicios/ejecucion.png" />](#instrucciones-de-uso)
 
 Abrir cada carpeta de ejercicio en IntelliJ y ejecutar el `main` de la clase principal.
 
@@ -203,12 +208,12 @@ Abrir cada carpeta de ejercicio en IntelliJ y ejecutar el `main` de la clase pri
 
 ---
 
-## <a name="desarrollado-por"></a>[<img width="302" height="118" alt="Captura de pantalla 2025-08-24 185806" src="https://github.com/user-attachments/assets/b2a40efb-3d25-4ed4-a739-a160886736a5" />](#desarrollado-por)
+## <a name="desarrollado-por"></a>[<img width="302" height="118" alt="Desarrolladora" src="readme-img/tarea-4-ejercicios/desarrolladora.png" />](#desarrollado-por)
 
 Este proyecto fue desarrollado por Johana Jazmín Saavedra, estudiante de cuarto semestre en Técnica profesional en programación de aplicaciones de software de la Fundación Universitaria Compensar. Con una participación activa en la creación y desarrollo del proyecto.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/96a0990c-a533-42c2-9fa2-7224c4eca021" width="120" style="border: none;"><br/>
+  <img src="readme-img/johana.png" width="120" style="border: none;"><br/>
   <strong>Johana Jazmín Saavedra</strong>
 </div>
 
@@ -216,14 +221,14 @@ Este proyecto fue desarrollado por Johana Jazmín Saavedra, estudiante de cuarto
 
 ---
 
-# <img width="1464" height="95" alt="Captura de pantalla 2025-08-31 202843" src="https://github.com/user-attachments/assets/2d5358b7-b66d-48b8-a63a-f7b1db009b97" />
+# <img width="1464" height="95" alt="Titulo" src="readme-img/tarea-2-ejercicios/titulo3.png" />
 
 Este repositorio contiene la solución a la Tarea 2 de la asignatura Pruebas de Software II. En esta entrega se desarrollaron dos ejercicios en Java, aplicando análisis de problemas, estructuras de control y buenas prácticas en la programación.
 
 ---
 
 <a name="indice"></a>
-## <img width="126" height="72" alt="Captura de pantalla 2025-08-31 202951" src="https://github.com/user-attachments/assets/0e519ce6-af0a-4b52-9f5d-ef77c2fe644c" />
+## <img width="126" height="72" alt="Indice" src="readme-img/tarea-2-ejercicios/indice3.png" />
 
 1. [Ejercicio 1: Torre de vasos](#ejercicio1-torre-de-vasos)
 2. [Ejercicio 2: Cajas de galletas](#ejercicio2-cajas-de-galletas)
@@ -235,7 +240,7 @@ Este repositorio contiene la solución a la Tarea 2 de la asignatura Pruebas de 
 ---
 
 <a name="ejercicio1-torre-de-vasos"></a>
-## <img width="443" height="82" alt="Captura de pantalla 2025-08-31 203021" src="https://github.com/user-attachments/assets/f96834ed-c7f1-46cb-88e3-3ba7a01ec2a6" />
+## <img width="443" height="82" alt="Torre" src="readme-img/tarea-2-ejercicios/torre.png" />
 
 Imagina que en una fiesta se quiere apilar vasos desechables formando una torre. Cada nivel de la torre tiene un vaso menos que el nivel inferior.
 
@@ -259,7 +264,7 @@ Ejemplo con 4 niveles:
 Esto equivale a sumar los primeros 'n' números enteros (serie aritmética):
 
 <div align="center">
-  <img width="288" height="60" alt="Captura de pantalla 2025-08-31 201001" src="https://github.com/user-attachments/assets/351467de-4c17-4e1b-bba0-5a1c0eb504d4" />
+  <img width="288" height="60" alt="Formula" src="readme-img/tarea-2-ejercicios/formula.png" />
 </div>
 
 ## 2. Análisis
@@ -281,13 +286,13 @@ fin funcion
 ## 4. Diagrama de flujo
 
 <div align="center">
-  <img width="381" height="641" alt="vasos drawio" src="https://github.com/user-attachments/assets/612b4377-8f98-46c1-b497-da945ea5b1d2" />
+  <img width="381" height="641" alt="Diagrama1" src="readme-img/tarea-2-ejercicios/diagrama1.png" />
 </div>
 
 Se implementó un método en Java llamado `calcularTotalVasos(int niveles)`, el cual devuelve la cantidad total de vasos necesarios para construir la torre.
 
 <div align="center">
-  <img width="536" height="469" alt="Imagen1" src="https://github.com/user-attachments/assets/47049d92-4f5c-4ffa-969e-181d5c67e824" />
+  <img width="536" height="469" alt="Imagen1" src="readme-img/tarea-2-ejercicios/Imagen1.png" />
 </div>
 
 [⬆️ Volver al índice](#indice)
@@ -295,7 +300,7 @@ Se implementó un método en Java llamado `calcularTotalVasos(int niveles)`, el 
 ---
 
 <a name="ejercicio2-cajas-de-galletas"></a>
-## <img width="445" height="83" alt="Captura de pantalla 2025-08-31 203059" src="https://github.com/user-attachments/assets/88afba23-9324-433d-91a8-24a10c741de5" />
+## <img width="445" height="83" alt="Ejercicio2" src="readme-img/tarea-2-ejercicios/galletas.png" />
 
 Un negocio de repostería empaca galletas en cajas pequeñas, siguiendo la regla de que cada caja contiene la mitad de galletas que la anterior. El proceso se repite hasta que la cantidad sea menor a 1.
 
@@ -338,13 +343,13 @@ fin funcion
 ## 4. Diagrama de flujo
 
 <div align="center">
-  <img width="441" height="731" alt="galletas drawio" src="https://github.com/user-attachments/assets/968f9c59-f14b-47d4-9f79-1605d5b8867b" />
+  <img width="441" height="731" alt="Diagrama2" src="readme-img/tarea-2-ejercicios/diagrama2.png" />
 </div>
 
 Se implementó un método en Java llamado `calcularTotalGalletas(int galletas)`, que devuelve el total de galletas necesarias considerando todas las cajas.
 
 <div align="center">
-  <img width="536" height="531" alt="Imagen2" src="https://github.com/user-attachments/assets/07a6c667-1e0e-4445-ba2c-46c3f7a1a85e" />
+  <img width="536" height="531" alt="Imagen2" src="readme-img/tarea-2-ejercicios/Imagen2.png" />
 </div>
 
 [⬆️ Volver al índice](#indice)
@@ -352,7 +357,7 @@ Se implementó un método en Java llamado `calcularTotalGalletas(int galletas)`,
 ---
 
 <a name="requisitos"></a>
-## <img width="204" height="59" alt="Captura de pantalla 2025-08-31 203220" src="https://github.com/user-attachments/assets/3ceee55e-369c-47e5-93a9-6f45f8340420" />
+## <img width="204" height="59" alt="Requisitos" src="readme-img/tarea-2-ejercicios/requisitos3.png" />
 
 Antes de ejecutar los programas asegúrate de tener instalado:
 
@@ -364,7 +369,7 @@ Antes de ejecutar los programas asegúrate de tener instalado:
 ---
 
 <a name="como-ejecutar"></a>
-## <img width="280" height="55" alt="Captura de pantalla 2025-08-31 203258" src="https://github.com/user-attachments/assets/b46f593a-b8d7-4245-9bc4-02b3348bb0c9" />
+## <img width="280" height="55" alt="Ejecutar" src="readme-img/tarea-2-ejercicios/ejecutar.png" />
 
 ### 1. Clonar este repositorio:
 ```bash
@@ -395,7 +400,7 @@ Ingresar los datos solicitados por consola y revisar el resultado.
 ---
 
 <a name="conclusion"></a>
-## <img width="244" height="56" alt="Captura de pantalla 2025-08-31 203340" src="https://github.com/user-attachments/assets/827bc14b-d4b7-49ed-9ddd-be9da287b98a" />
+## <img width="244" height="56" alt="Conclusiones" src="readme-img/tarea-2-ejercicios/conclusiones3.png" />
 
 Con el desarrollo de estos ejercicios se reforzaron conceptos fundamentales de programación en Java, como el uso de ciclos, condicionales y fórmulas matemáticas para resolver problemas prácticos. Además, se practicó el proceso de análisis y planteamiento de soluciones antes de llegar a la codificación.
 
@@ -406,12 +411,12 @@ El proyecto demuestra la importancia de aplicar buenas prácticas en el desarrol
 ---
 
 <a name="desarrolladora"></a>
-## <img width="282" height="53" alt="image" src="https://github.com/user-attachments/assets/ff8fa715-c8df-4013-ad61-111f67b1565b" />
+## <img width="282" height="53" alt="Desarrolladora" src="readme-img/tarea-2-ejercicios/desarrolladora3.png" />
 
 Este proyecto fue desarrollado por Johana Jazmín Saavedra, estudiante de cuarto semestre en Técnica profesional en programación de aplicaciones de software de la Fundación Universitaria Compensar. Con una participación activa en la creación y desarrollo del proyecto.
 
 <div align="center">
-  <img width="124" height="236" alt="Joh sin fondo" src="https://github.com/user-attachments/assets/85e6c8ef-2563-4c31-899f-c32f3e81c35b" />
+  <img width="124" height="236" alt="Johana" src="readme-img/johana.png" />
   <br>
   <strong>Johana Jazmín Saavedra</strong>
 </div>
