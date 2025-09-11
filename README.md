@@ -1,5 +1,6 @@
 # <div align="center"><img width="1140" height="122" alt="titulo pruebas" src="readme-img/titulo.png" /></div>
 
+<a name="índice"></a>
 ## <img width="150" height="71" alt="Indice" src="readme-img/indice1.png" />
 
 - [Construcción del diagrama de flujo](#construcción-del-diagrama-de-flujo)
@@ -126,6 +127,8 @@ Cada ejercicio es un proyecto independiente dentro de la carpeta raíz.
 - [📁 Ejercicio 2: Inversa de Cadenas](#ejercicio2-inversa-de-cadenas) 
 - [📁 Ejercicio 3: Validar Contraseña](#ejercicio3-validar-contraseña)
 - [📁 Ejercicio 4: Contar Vocales y Consonantes](#ejercicio4-contar-vocales-y-consonantes)
+
+[⬆️ Volver al índice](#índice-general)
 
 ---
 
