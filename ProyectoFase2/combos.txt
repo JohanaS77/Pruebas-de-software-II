@@ -1,0 +1,6 @@
+Dulce Tentación;Baja;9100.0;12.0;8008.0;4;Granadilla
+Entre Dos;Media;16000.0;8.0;14720.0;7;Pera,Banano
+La Buena Energía;Media;10100.0;5.0;9595.0;6;Maracuyá,Piña
+La Naturaleza;Media;8500.0;8.0;7820.0;5;Acelga,Zuquini,Apio
+Verano intenso;Alta;13900.0;10.0;12510.0;10;Piña,Naranja,Mango
+Verduras Frescas;Alta;8900.0;12.0;7832.0;10;Tomate,Zuquini
