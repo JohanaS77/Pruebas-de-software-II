@@ -1,0 +1,7 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+ProyectoCombos,sistemagestioncombos,Inventario,5,296,2,22,1,63,2,32,0,22
+ProyectoCombos,sistemagestioncombos,GestorCombos,0,107,0,10,0,29,0,12,0,7
+ProyectoCombos,sistemagestioncombos,ArchivoCombo,10,208,0,18,2,49,1,13,1,4
+ProyectoCombos,sistemagestioncombos,ArchivoProducto,6,143,0,10,2,37,0,9,0,4
+ProyectoCombos,sistemagestioncombos,Combo,0,289,1,43,0,67,1,40,0,19
+ProyectoCombos,sistemagestioncombos,Producto,0,250,0,46,0,59,0,40,0,17
