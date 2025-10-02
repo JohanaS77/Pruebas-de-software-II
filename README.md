@@ -428,16 +428,16 @@ Este proyecto fue desarrollado por Johana Jazmín Saavedra, estudiante de cuarto
 
 
 <div align="center">
-  <img width="172" height="173" alt="Frutas" src="img/frutas.png" style="display: inline-block; vertical-align: middle;"/>
-  <img src="img/titulo.png" alt="Titulo" width="600" style="display: inline-block; vertical-align: middle;"/>
-  <img width="172" height="173" alt="Verduras" src="img/verduras.png" style="display: inline-block; vertical-align: middle;"/>
+  <img width="172" height="173" alt="Frutas" src="ProyectoFase2/img/frutas.png" style="display: inline-block; vertical-align: middle;"/>
+  <img src="ProyectoFase2/img/titulo.png" alt="Titulo" width="600" style="display: inline-block; vertical-align: middle;"/>
+  <img width="172" height="173" alt="Verduras" src="ProyectoFase2/img/verduras.png" style="display: inline-block; vertical-align: middle;"/>
 </div>
 
 ---
 
 
 
-## <img width="455" height="401" alt="Descripción" src="img/descripcion.png"/>
+## <img width="455" height="401" alt="Descripción" src="ProyectoFase2/img/descripcion.png"/>
 
 Este proyecto consiste en un sistema de gestión de inventario desarrollado en Java que permite administrar productos perecederos y crear combos promocionales con descuentos personalizados. El sistema calcula automáticamente el precio de los combos sumando el costo por kilogramo de cada producto incluido y aplicando el descuento correspondiente.
 
@@ -446,7 +446,7 @@ Cuenta con una interfaz gráfica desarrollada con Java Swing y persistencia de d
 ---
 
 <a name="indice"></a>
-## <img width="155" height="101" alt="Indice" src="img/indice.png"/>
+## <img width="155" height="101" alt="Indice" src="ProyectoFase2/img/indice.png"/>
 
 1. [Objetivos](#objetivos)
 2. [Tecnologías Utilizadas](#tecnologias-utilizadas)
@@ -467,7 +467,7 @@ Cuenta con una interfaz gráfica desarrollada con Java Swing y persistencia de d
 ---
 
 <a name="objetivos"></a>
-## <img width="205" height="111" alt="Objetivos" src="img/objetivos.png"/>
+## <img width="205" height="111" alt="Objetivos" src="ProyectoFase2/img/objetivos.png"/>
 
 - Aplicar técnicas de pruebas unitarias en un proyecto Java
 - Implementar pruebas que cubran al menos el 90% de la lógica de negocio
@@ -479,7 +479,7 @@ Cuenta con una interfaz gráfica desarrollada con Java Swing y persistencia de d
 ---
 
 <a name="tecnologias-utilizadas"></a>
-## <img width="405" height="401" alt="Tecnologias Usadas" src="img/tecnologias.png"/>
+## <img width="405" height="401" alt="Tecnologias Usadas" src="ProyectoFase2/img/tecnologias.png"/>
 
 - **Lenguaje:** Java 17
 - **Framework de Pruebas:** JUnit 5
@@ -493,7 +493,7 @@ Cuenta con una interfaz gráfica desarrollada con Java Swing y persistencia de d
 ---
 
 <a name="requisitos-tecnicos"></a>
-## <img width="405" height="401" alt="Requisitos Tecnicos" src="img/requisitos.png"/>
+## <img width="405" height="401" alt="Requisitos Tecnicos" src="ProyectoFase2/img/requisitos.png"/>
 
 - Java Development Kit (JDK) 17 o superior
 - Maven 3.6 o superior
@@ -505,7 +505,7 @@ Cuenta con una interfaz gráfica desarrollada con Java Swing y persistencia de d
 ---
 
 <a name="instalacion"></a>
-## <img width="225" height="251" alt="Instalacion" src="img/instalacion.png"/>
+## <img width="225" height="251" alt="Instalacion" src="ProyectoFase2/img/instalacion.png"/>
 
 ### 1. Clonar el repositorio
 
@@ -538,7 +538,7 @@ mvn exec:java -Dexec.mainClass="sistemagestioncombos.VentanaPrincipal"
 ---
 
 <a name="estructura-del-proyecto"></a>
-## <img width="405" height="451" alt="Estructura" src="img/estructura.png"/>
+## <img width="405" height="451" alt="Estructura" src="ProyectoFase2/img/estructura.png"/>
 
 ```
 ## Estructura del Proyecto
@@ -583,7 +583,7 @@ sistemagestioncombos/
 ---
 
 <a name="funcionalidades"></a>
-## <img width="315" height="311" alt="Funcionalidades" src="img/funcionalidades.png"/>
+## <img width="315" height="311" alt="Funcionalidades" src="ProyectoFase2/img/funcionalidades.png"/>
 
 ## Gestión de Productos
 - **Agregar productos:** Registro de nuevos productos con todos sus atributos (nombre, precio, tipo, temporada, días para vencer, cantidad en kg)
@@ -615,7 +615,7 @@ sistemagestioncombos/
 ---
 
 <a name="ejecucion-de-pruebas"></a>
-## <img width="405" height="401" alt="Ejecucion de pruebas" src="img/ejecucion.png"/>
+## <img width="405" height="401" alt="Ejecucion de pruebas" src="ProyectoFase2/img/ejecucion.png"/>
 
 ## Ejecutar todas las pruebas
 
@@ -649,7 +649,7 @@ mvn test -Dtest=ProductoTest
 ---
 
 <a name="reportes-de-cobertura"></a>
-## <img width="415" height="411" alt="Reportes cobertura" src="img/reportes.png"/>
+## <img width="415" height="411" alt="Reportes cobertura" src="ProyectoFase2/img/reportes.png"/>
 
 Según el análisis de JaCoCo, el proyecto alcanza los siguientes niveles de cobertura:
 
@@ -675,7 +675,7 @@ Según el análisis de JaCoCo, el proyecto alcanza los siguientes niveles de cob
 ---
 
 <a name="plan-de-pruebas"></a>
-## <img width="315" height="311" alt="Plan pruebas" src="img/plan.png"/>
+## <img width="315" height="311" alt="Plan pruebas" src="ProyectoFase2/img/plan.png"/>
 
 ## Estrategia de Pruebas
 
@@ -780,7 +780,7 @@ El proyecto implementa una estrategia de pruebas exhaustiva que incluye:
 ---
 
 <a name="evidencias"></a>
-## <img width="255" height="251" alt="Evidencias" src="img/evidencias.png"/>
+## <img width="255" height="251" alt="Evidencias" src="ProyectoFase2/img/evidencias.png"/>
 
 ## Evidencias de Funcionamiento de la Aplicación
 
@@ -788,7 +788,7 @@ El proyecto implementa una estrategia de pruebas exhaustiva que incluye:
 Ejecución del sistema a través de la interfaz de consola con menú de opciones:
 
 <div align="center">
-  <img src="evidencias/main.png" alt="Interfaz de Consola" width="350"/>
+  <img src="ProyectoFase2/evidencias/main.png" alt="Interfaz de Consola" width="350"/>
 </div>
 
 ### Interfaz Gráfica - Ventana Principal
@@ -796,12 +796,12 @@ Ejecución del sistema a través de la interfaz de consola con menú de opciones
   <table>
     <tr>
       <td align="center">
-        <img src="evidencias/ventanap1.png" alt="Menú Principal" width="400"/>
+        <img src="ProyectoFase2/evidencias/ventanap1.png" alt="Menú Principal" width="400"/>
         <br>
         <strong>Menú principal del sistema</strong>
       </td>
       <td align="center">
-        <img src="evidencias/ventanap4.png" alt="Agregar Producto" width="400"/>
+        <img src="ProyectoFase2/evidencias/ventanap4.png" alt="Agregar Producto" width="400"/>
         <br>
         <strong>Formulario de captura de datos</strong>
       </td>
@@ -813,14 +813,14 @@ Ejecución del sistema a través de la interfaz de consola con menú de opciones
 Vista de la tabla de productos con sus características, precios y cantidades:
 
 <div align="center">
-  <img src="evidencias/ventanap2.png" alt="Inventario de Productos" width="650"/>
+  <img src="ProyectoFase2/evidencias/ventanap2.png" alt="Inventario de Productos" width="650"/>
 </div>
 
 ### Gestión de Combos
 Vista de la tabla de combos con productos asociados, descuentos y precios calculados:
 
 <div align="center">
-  <img src="evidencias/ventanap3.png" alt="Lista de Combos" width="650"/>
+  <img src="ProyectoFase2/evidencias/ventanap3.png" alt="Lista de Combos" width="650"/>
 </div>
 
 
@@ -830,32 +830,32 @@ Ejecución exitosa de todas las clases de prueba implementadas:
 
 ### ArchivoComboTest
 <div align="center">
-  <img src="evidencias/ArchivoComboTest.png" alt="Pruebas ArchivoCombo" width="420"/>
+  <img src="ProyectoFase2/evidencias/ArchivoComboTest.png" alt="Pruebas ArchivoCombo" width="420"/>
 </div>
 
 ### ArchivoProductoTest
 <div align="center">
-  <img src="evidencias/ArchivoProductoTest.png" alt="Pruebas ArchivoProducto" width="500"/>
+  <img src="ProyectoFase2/evidencias/ArchivoProductoTest.png" alt="Pruebas ArchivoProducto" width="500"/>
 </div>
 
 ### ComboTest
 <div align="center">
-  <img src="evidencias/ComboTest.png" alt="Pruebas Combo" width="450"/>
+  <img src="ProyectoFase2/evidencias/ComboTest.png" alt="Pruebas Combo" width="450"/>
 </div>
 
 ### GestorCombosTest
 <div align="center">
-  <img src="evidencias/GestorCombosTest.png" alt="Pruebas GestorCombos" width="450"/>
+  <img src="ProyectoFase2/evidencias/GestorCombosTest.png" alt="Pruebas GestorCombos" width="450"/>
 </div>
 
 ### InventarioTest
 <div align="center">
-  <img src="evidencias/InventarioTest.png" alt="Pruebas Inventario" width="450"/>
+  <img src="ProyectoFase2/evidencias/InventarioTest.png" alt="Pruebas Inventario" width="450"/>
 </div>
 
 ### ProductoTest
 <div align="center">
-  <img src="evidencias/ProductoTest.png" alt="Pruebas Producto" width="450"/>
+  <img src="ProyectoFase2/evidencias/ProductoTest.png" alt="Pruebas Producto" width="450"/>
 </div>
 
 
@@ -864,7 +864,7 @@ Ejecución exitosa de todas las clases de prueba implementadas:
 Reporte completo de cobertura de código mostrando 98% de cobertura en instrucciones y ramas:
 
 <div align="center">
-  <img src="evidencias/JacocoTest.png" alt="Reporte de Cobertura JaCoCo" width="800"/>
+  <img src="ProyectoFase2/evidencias/JacocoTest.png" alt="Reporte de Cobertura JaCoCo" width="800"/>
 </div>
 
 *El reporte detallado en formato HTML se encuentra en `target/site/jacoco/index.html` después de ejecutar `mvn clean test jacoco:report`*
@@ -874,7 +874,7 @@ Reporte completo de cobertura de código mostrando 98% de cobertura en instrucci
 ---
 
 <a name="conclusiones"></a>
-## <img width="285" height="281" alt="Conclusiones" src="img/conclusiones.png"/>
+## <img width="285" height="281" alt="Conclusiones" src="ProyectoFase2/img/conclusiones.png"/>
 
 ## Logros Alcanzados
 
@@ -911,7 +911,7 @@ El uso de herramientas profesionales como JUnit, JaCoCo y Maven nos preparó par
 ---
 
 <a name="recomendaciones"></a>
-## <img width="355" height="351" alt="Recomendaciones" src="img/recomendaciones.png"/> 
+## <img width="355" height="351" alt="Recomendaciones" src="ProyectoFase2/img/recomendaciones.png"/> 
 
 1. **Base de Datos:** Migrar de archivos de texto a una base de datos relacional (MySQL, PostgreSQL) para mayor robustez
 2. **Pruebas de GUI:** Implementar pruebas automatizadas de la interfaz gráfica usando frameworks como AssertJ Swing
@@ -929,7 +929,7 @@ El uso de herramientas profesionales como JUnit, JaCoCo y Maven nos preparó par
 ---
 
 <a name="desarrolladores"></a>
-## <img width="355" height="351" alt="Desarrolladores" src="img/desarrolladores.png"/> 
+## <img width="355" height="351" alt="Desarrolladores" src="ProyectoFase2/img/desarrolladores.png"/> 
 
 Este proyecto fue desarrollado por Dafne Julieth Cortés, Johana Jazmín Saavedra y Michael Duvan Gómez Peña, estudiantes de cuarto semestre en Técnica profesional en programación de aplicaciones de software de la Fundación Universitaria Compensar; con una participación activa en la creación del juego y presentación del proyecto final.
 
@@ -937,19 +937,19 @@ Este proyecto fue desarrollado por Dafne Julieth Cortés, Johana Jazmín Saavedr
   <table>
     <tr>
       <td align="center" style="padding: 0 30px;">
-        <img src="img/Dafne.jpg" width="120" style="border: none;"><br/>
+        <img src="ProyectoFase2/img/Dafne.jpg" width="120" style="border: none;"><br/>
         <strong>Dafne Julieth Cortés</strong>
         <br>
         <em>(Desarrollador Backend)</em>
       </td>
       <td align="center" style="padding: 0 30px;">
-        <img src="img/johana.png" width="80" style="border: none;"><br/>
+        <img src="ProyectoFase2/img/johana.png" width="80" style="border: none;"><br/>
         <strong>Johana Jazmín Saavedra</strong>
         <br>
         <em>(QA Tester)</em>
       </td>
       <td align="center" style="padding: 0 30px;">
-        <img src="img/Michael.png" width="120" style="border: none;"><br/>
+        <img src="ProyectoFase2/img/Michael.png" width="120" style="border: none;"><br/>
         <strong>Michael Duvan Gómez Peña</strong>
         <br>
         <em>(Desarrollador Frontend)</em>
@@ -963,7 +963,7 @@ Este proyecto fue desarrollado por Dafne Julieth Cortés, Johana Jazmín Saavedr
 ---
 
 <a name="licencia"></a>
-## <img width="185" height="181" alt="Licencia" src="img/licencia.png"/> 
+## <img width="185" height="181" alt="Licencia" src="ProyectoFase2/img/licencia.png"/> 
 
 Este proyecto fue desarrollado con fines académicos para el curso de Pruebas de Software.
 
@@ -972,7 +972,7 @@ Este proyecto fue desarrollado con fines académicos para el curso de Pruebas de
 ---
 
 <a name="contacto"></a>
-## <img width="185" height="181" alt="Contacto" src="img/contacto.png"/> 
+## <img width="185" height="181" alt="Contacto" src="ProyectoFase2/img/contacto.png"/> 
 
 Para cualquier consulta sobre el proyecto, puede contactar a través del repositorio de GitHub.
 
