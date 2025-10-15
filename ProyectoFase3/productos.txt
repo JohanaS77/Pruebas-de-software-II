@@ -1,0 +1,26 @@
+Acelga;3200.0;Verdura;Baja;2;13.0
+Apio;2300.0;Verdura;Media;16;8.0
+Banano;4500.0;Fruta;Baja;5;5.0
+Cebolla Cabezona;2200.0;Verdura;Media;12;18.0
+Cebolla Larga;4800.0;Verdura;Media;20;3.0
+Espinaca;6400.0;Verdura;Media;10;10.0
+Fresa;15600.0;Fruta;Media;6;14.0
+Granadilla;9100.0;Fruta;Baja;3;12.0
+Habichuela;4500.0;Verdura;Media;16;20.0
+Lechuga;5200.0;Verdura;Media;11;23.0
+Limón Común;3200.0;Fruta;Baja;2;10.0
+Mango;6500.0;Fruta;Media;7;22.0
+Maracuyá;6600.0;Fruta;Media;5;10.0
+Naranja;3900.0;Fruta;Alta;15;25.0
+Papa;1200.0;Verdura;Media;12;50.0
+Papa Criolla;3700.0;Verdura;Baja;20;18.0
+Papaya;2600.0;Fruta;baja;5;10.0
+Pepino;2600.0;Verdura;Media;4;3.0
+Pera;11500.0;Fruta;Media;13;15.0
+Pimentón;5200.0;Verdura;Alta;12;8.0
+Piña;3500.0;Fruta;Alta;8;12.0
+Plátano;2700.0;Verdura;Media;12;20.0
+Tomate;5900.0;Verdura;Alta;9;20.0
+Yuca;2200.0;Verdura;Baja;5;15.0
+Zanahoria;2800.0;Verdura;Media;25;25.0
+Zuquini;3000.0;Verdura;Baja;4;6.0
