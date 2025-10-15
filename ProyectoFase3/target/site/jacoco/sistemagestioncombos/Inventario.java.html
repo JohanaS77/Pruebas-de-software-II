@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Inventario.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">ProyectoCombos</a> &gt; <a href="index.source.html" class="el_package">sistemagestioncombos</a> &gt; <span class="el_source">Inventario.java</span></div><h1>Inventario.java</h1><pre class="source lang-java linenums">package sistemagestioncombos;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+import java.util.Stack;
+import java.util.Queue;
+import java.util.LinkedList;
+// No se necesita importar Collections si usamos List.copyOf() de Java 9+
+
+public class Inventario {
+    private List&lt;Producto&gt; productos;
+    private List&lt;Combo&gt; combos;
+    private Stack&lt;Producto&gt; productosRecientes;
+    private Queue&lt;Combo&gt; colaRotacionCombos;
+
+    // Constructor
+<span class="fc" id="L18">    public Inventario() {</span>
+<span class="fc" id="L19">        this.productos = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L20">        this.combos = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L21">        this.productosRecientes = new Stack&lt;&gt;();</span>
+<span class="fc" id="L22">        this.colaRotacionCombos = new LinkedList&lt;&gt;();</span>
+<span class="fc" id="L23">    }</span>
+
+    // -------------------------
+    // Gestión de Productos
+    // -------------------------
+    public void agregarProducto(Producto producto) {
+<span class="fc bfc" id="L29" title="All 2 branches covered.">        if (producto == null) {</span>
+<span class="fc" id="L30">            throw new IllegalArgumentException(&quot;El producto no puede ser nulo&quot;);</span>
+        }
+<span class="fc bfc" id="L32" title="All 2 branches covered.">        if (buscarProductoPorNombre(producto.getNombre()).isPresent()) {</span>
+<span class="fc" id="L33">            throw new IllegalArgumentException(&quot;Ya existe un producto con el mismo nombre&quot;);</span>
+        }
+<span class="fc" id="L35">        productos.add(producto);</span>
+<span class="fc" id="L36">        productosRecientes.push(producto);</span>
+<span class="fc" id="L37">    }</span>
+
+    public boolean eliminarProducto(String nombre) {
+<span class="fc" id="L40">        return productos.removeIf(p -&gt; p.getNombre().equalsIgnoreCase(nombre));</span>
+    }
+
+    public Optional&lt;Producto&gt; buscarProductoPorNombre(String nombre) {
+<span class="fc" id="L44">        return productos.stream()</span>
+<span class="fc" id="L45">                .filter(p -&gt; p.getNombre().equalsIgnoreCase(nombre))</span>
+<span class="fc" id="L46">                .findFirst();</span>
+    }
+
+    public List&lt;Producto&gt; listarProductos() {
+        // CAMBIO APLICADO (Inmutabilidad y Encapsulamiento)
+<span class="fc" id="L51">        return List.copyOf(productos);</span>
+    }
+
+    public int totalProductos() {
+<span class="fc" id="L55">        return productos.size();</span>
+    }
+
+    // Método para obtener los últimos productos agregados (máximo 5)
+    public List&lt;Producto&gt; obtenerProductosRecientes(int cantidad) {
+<span class="fc" id="L60">        List&lt;Producto&gt; recientes = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L61">        Stack&lt;Producto&gt; tempStack = new Stack&lt;&gt;();</span>
+
+        // Sacar elementos del stack original (máximo la cantidad solicitada)
+<span class="fc" id="L64">        int elementos = Math.min(cantidad, productosRecientes.size());</span>
+
+<span class="fc bfc" id="L66" title="All 2 branches covered.">        for (int i = 0; i &lt; elementos; i++) {</span>
+<span class="pc bpc" id="L67" title="1 of 2 branches missed.">            if (!productosRecientes.isEmpty()) {</span>
+<span class="fc" id="L68">                Producto producto = productosRecientes.pop();</span>
+<span class="fc" id="L69">                recientes.add(producto);</span>
+<span class="fc" id="L70">                tempStack.push(producto);</span>
+            }
+        }
+        // Restaurar el stack original
+<span class="fc bfc" id="L74" title="All 2 branches covered.">        while (!tempStack.isEmpty()) {</span>
+<span class="fc" id="L75">            productosRecientes.push(tempStack.pop());</span>
+        }
+        // Se devuelve el resultado como lista inmutable (consistencia)
+<span class="fc" id="L78">        return List.copyOf(recientes);</span>
+    }
+
+    // Método para obtener combo siguiente en rotación por temporada
+    public Combo obtenerSiguienteComboRotacion() {
+<span class="fc bfc" id="L83" title="All 2 branches covered.">        if (colaRotacionCombos.isEmpty()) {</span>
+<span class="fc" id="L84">            return null;</span>
+        }
+
+        // Sacar el primer combo de la cola y volverlo a poner al final
+<span class="fc" id="L88">        Combo comboActual = colaRotacionCombos.poll();</span>
+<span class="fc" id="L89">        colaRotacionCombos.offer(comboActual);</span>
+
+<span class="fc" id="L91">        return comboActual;</span>
+    }
+
+    // Método para obtener combos por temporada específica
+    public List&lt;Combo&gt; obtenerCombosPorTemporada(String temporada) {
+        // Se devuelve el resultado del filtro como lista inmutable (consistencia)
+<span class="fc" id="L97">        return List.copyOf(combos.stream()</span>
+<span class="fc" id="L98">                .filter(c -&gt; c.getTemporada().equalsIgnoreCase(temporada))</span>
+<span class="fc" id="L99">                .collect(ArrayList::new, (list, combo) -&gt; list.add(combo), ArrayList::addAll));</span>
+    }
+
+    // -------------------------
+    // Gestión de Combos
+    // -------------------------
+    public void agregarCombo(Combo combo) {
+<span class="fc bfc" id="L106" title="All 2 branches covered.">        if (combo == null) {</span>
+<span class="fc" id="L107">            throw new IllegalArgumentException(&quot;El combo no puede ser nulo&quot;);</span>
+        }
+<span class="pc bpc" id="L109" title="1 of 2 branches missed.">        if (buscarComboPorNombre(combo.getNombre()).isPresent()) {</span>
+<span class="nc" id="L110">            throw new IllegalArgumentException(&quot;Ya existe un combo con el mismo nombre&quot;);</span>
+        }
+<span class="fc" id="L112">        combos.add(combo);</span>
+<span class="fc" id="L113">        colaRotacionCombos.offer(combo);</span>
+<span class="fc" id="L114">    }</span>
+
+    public boolean eliminarCombo(String nombre) {
+<span class="fc" id="L117">        boolean eliminadoDeCombos = combos.removeIf(c -&gt; c.getNombre().equalsIgnoreCase(nombre));</span>
+
+        // CORRECCIÓN DE BUG DE INGENIERÍA: Si se elimina de la lista principal,
+        // debe eliminarse de la cola de rotación para evitar errores.
+<span class="fc bfc" id="L121" title="All 2 branches covered.">        if (eliminadoDeCombos) {</span>
+            // Se reconstruye la cola sin el combo eliminado.
+<span class="fc" id="L123">            colaRotacionCombos = new LinkedList&lt;&gt;(colaRotacionCombos.stream()</span>
+<span class="fc bfc" id="L124" title="All 2 branches covered.">                    .filter(c -&gt; !c.getNombre().equalsIgnoreCase(nombre))</span>
+<span class="fc" id="L125">                    .toList());</span>
+        }
+<span class="fc" id="L127">        return eliminadoDeCombos;</span>
+    }
+
+    public Optional&lt;Combo&gt; buscarComboPorNombre(String nombre) {
+<span class="fc" id="L131">        return combos.stream()</span>
+<span class="fc" id="L132">                .filter(c -&gt; c.getNombre().equalsIgnoreCase(nombre))</span>
+<span class="fc" id="L133">                .findFirst();</span>
+    }
+
+    public List&lt;Combo&gt; listarCombos() {
+        // CAMBIO APLICADO (Inmutabilidad y Encapsulamiento)
+<span class="fc" id="L138">        return List.copyOf(combos);</span>
+    }
+
+    public int totalCombos() {
+<span class="fc" id="L142">        return combos.size();</span>
+    }
+
+    // -------------------------
+    // Métricas del Inventario
+    // -------------------------
+    public double calcularValorTotalInventario() {
+<span class="fc" id="L149">        double total = 0;</span>
+
+        // Valor de todos los productos
+<span class="fc bfc" id="L152" title="All 2 branches covered.">        for (Producto p : productos) {</span>
+<span class="fc" id="L153">            total += p.calcularValorTotal();</span>
+<span class="fc" id="L154">        }</span>
+
+        // Valor de todos los combos
+<span class="fc bfc" id="L157" title="All 2 branches covered.">        for (Combo c : combos) {</span>
+<span class="fc" id="L158">            total += c.calcularValorTotalEnInventario();</span>
+<span class="fc" id="L159">        }</span>
+
+<span class="fc" id="L161">        return total;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>
